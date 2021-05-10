@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 800px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin-top: 16px;
+}
+
+#televisions {
+    color: red;
+}
+
+#max-profit {
+    color: dodgerblue;
+}
+
+#current-profit {
+    color: mediumseagreen;
+}
+
+#two-tvs, #tv-information-format {
+    list-style: none;
+    display: inline-block;
+}
+
+#info-all-tvs > ul {
+    display: block;
+    padding: 16px;
+    background-color: aquamarine;
+    list-style: none;
+    color: red;
+}
