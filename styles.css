@@ -4,8 +4,16 @@ body {
 }
 
 #container {
-    position: center;
     width: 800px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin-top: 16px;
 }
 
 #televisions {
@@ -20,8 +28,9 @@ body {
     color: mediumseagreen;
 }
 
-#two-tvs {
+#two-tvs, #tv-information-format {
     list-style: none;
+    display: inline-block;
 }
 
 #info-all-tvs > ul {
